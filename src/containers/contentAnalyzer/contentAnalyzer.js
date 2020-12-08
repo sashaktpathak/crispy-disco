@@ -55,7 +55,7 @@ class ContentAnalyzer extends Component{
                 algoKey: 7
             }
         ],
-        prediction: 2,
+        prediction: 0,
     }
     render(){
         
@@ -93,6 +93,7 @@ class ContentAnalyzer extends Component{
 
         return (
             <div className={classes.ContentAnalyzer}>
+                <div className={classes.heading}>Fake News Predictor</div>
                 <div>
                     <div className={classes.componentBox}>
                         <div className={classes.label}>Content:</div>
