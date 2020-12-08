@@ -1,0 +1,7 @@
+.contentBox{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1.1em;
+    font-weight: 700;
+}

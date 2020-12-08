@@ -1,0 +1,39 @@
+.ContentAnalyzer{
+    width: 85%;
+    display: flex;
+    height: 90%;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 20px #ccc;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.analyzeButton{
+    padding: 10px 50px;
+    border-radius: 20px;
+    background-color: #1545e0;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin: 0 auto;
+}
+.analyzeButton:hover {
+    transform: scale(1.1);
+}
+.analyzeButton:active {
+    transform: scale(1);
+}
+
+.label {
+    font-size: 0.9em;
+    font-weight: 900;
+}
+.componentBox {
+    padding: 10px;
+    margin: 5px;
+}
